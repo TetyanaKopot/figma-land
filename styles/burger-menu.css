@@ -1,0 +1,8 @@
+.burger-menu {
+    display: block;
+    margin-right: 20px;
+
+    @media(min-width: 786px) {
+        display: none;
+    }
+}
