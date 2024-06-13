@@ -1,0 +1,37 @@
+.fastest-way {
+  .fastest-way__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 60px;
+  }
+
+  .fastest-way__content,
+  .fastest-way__image {
+    width: 100%;
+
+    @media(min-width: 1200px) {
+      width: calc((100% - 60px) / 2);
+    }
+  }
+
+  .fastest-way__content {
+    @media (min-width: 1200px) {
+      text-align: left;
+    }
+  }
+  .fastest-way__content-text.visually {
+    margin-bottom: 60px;
+
+    @media(min-width:768px) {
+      margin-bottom: 0;
+    }
+  }
+  .fastest-way__image-item {
+    width: 360px;
+
+    @media(min-width: 768px) {
+      width: 625px;
+    }
+  }
+}
