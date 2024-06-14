@@ -2,16 +2,11 @@
   .fastest-way__container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     gap: 60px;
-  }
-
-  .fastest-way__content,
-  .fastest-way__image {
-    width: 100%;
-
+    
     @media(min-width: 1200px) {
-      width: calc((100% - 60px) / 2);
+      justify-content: space-between;
     }
   }
 
@@ -20,13 +15,7 @@
       text-align: left;
     }
   }
-  .fastest-way__content-text.visually {
-    margin-bottom: 60px;
-
-    @media(min-width:768px) {
-      margin-bottom: 0;
-    }
-  }
+  
   .fastest-way__image-item {
     width: 360px;
 

@@ -1,13 +1,5 @@
 .features {
 
-  .features__text.visually {
-    margin-bottom: 60px;
-
-    @media(min-width:768px) {
-      margin-bottom: 0;
-    }
-  }
-
   .features__wrapper {
     max-width: 869px;
     display: flex;
