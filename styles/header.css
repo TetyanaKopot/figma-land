@@ -1,3 +1,5 @@
+@import 'socials.css';
+
 .header {
   position: absolute;
   top: 0;
@@ -6,7 +8,7 @@
   width: 100%;
   padding: 0 10px;
   font-size: 15px;
-  
+
   @media (min-width: 786px) {
     padding-top: 40px;
     width: 90%;
@@ -26,7 +28,7 @@
       .header__nav-list {
         display: none;
 
-        @media(min-width:786px) {
+        @media (min-width: 786px) {
           display: flex;
           justify-content: space-around;
         }
@@ -35,7 +37,7 @@
           padding: 10px;
           margin-right: 8px;
 
-          @media(min-width: 980px) {
+          @media (min-width: 980px) {
             margin-right: 21px;
           }
         }

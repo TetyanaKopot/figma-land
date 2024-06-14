@@ -1,0 +1,23 @@
+@import 'cards.css';
+
+.pricing {
+  background-color: var(--color-background-dark);
+  padding: 100px 0;
+
+  .pricing__title,
+  .pricing__content {
+    color: var(--color-text-light);
+  }
+
+  .pricing__content:last-of-type {
+    margin-bottom: 80px;
+  }
+
+  .pricing__cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+}
