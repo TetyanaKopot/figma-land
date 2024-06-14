@@ -1,0 +1,26 @@
+.testimonials {
+  .testimonials__title {
+    margin-bottom: 90px;
+  }
+
+  .testimonials__item {
+    margin-bottom: 50px;
+  }
+
+  .testimonials__text {
+    max-width: 967px;
+    margin: 0 auto 60px;
+  }
+
+  .testimonials__user {
+    display: flex;
+    gap: 2.5px;
+    justify-content: center;
+    margin-bottom: 80px;
+
+    .testimonials__user-description {
+      max-width: 123px;
+      font-size: 16px;
+    }
+  }
+}

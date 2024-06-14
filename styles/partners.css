@@ -4,6 +4,7 @@
   }
 
   .partners__items {
+    max-width: 1375px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -18,19 +19,16 @@
         margin-bottom: 0;
       }
 
-      
       .partners__item-title {
         margin-bottom: 12px;
       }
     }
     .partners__item:not(.mobile) {
       display: none;
-  
+
       @media (min-width: 518px) {
         display: block;
       }
     }
   }
-  
-
 }
