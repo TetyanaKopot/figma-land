@@ -1,18 +1,26 @@
 .socials {
-    display: none;
+  display: flex;
+  gap: 16px;
+  align-items: center;
 
-    @media(min-width: 786px) {
-        display: flex;
-        gap: 16px;
-        align-items: center;
-    }
+  @media (min-width: 1200px) {
+    gap: 24px;
+  }
+}
 
-    @media(min-width: 1200px) {
-        gap: 24px;
-    }
+.header-socials {
+  display: none;
+  @media (min-width: 786px) {
+    display: flex;
+  }
+}
 
-    .social-item {
-        width: 40.99px;
-        height: 40.99px;
-    }
+.contacts-socials {
+  order: 1;
+  margin-bottom: 50px;
+  justify-content: center;
+
+  @media (min-width: 860px) {
+    order: 3;
+  }
 }

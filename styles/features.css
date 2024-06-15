@@ -1,5 +1,4 @@
 .features {
-
   .features__wrapper {
     max-width: 869px;
     display: flex;
@@ -11,11 +10,6 @@
     .feature {
       width: 255px;
       padding: 0 20px;
-
-      .feature__image {
-        width: 61px;
-        height: 61px;
-      }
 
       .feature__title {
         margin: 20px 0;
@@ -32,7 +26,5 @@
 
   .features__video-poster {
     width: 100%;
-
   }
-
 }
