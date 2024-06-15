@@ -1,10 +1,12 @@
 .icon-header,
-.icon-contacts {
+.icon-contacts,
+.icon-footer {
   width: 41px;
   height: 41px;
 }
 
-.icon-header {
+.icon-header,
+.icon-footer {
   fill: var(--color-background-light);
   transition: linear 0.3s;
 
