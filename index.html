@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
     <title>Figma Land</title>
   </head>
 
@@ -46,7 +46,51 @@
           </svg>
         </div>
         <div class="burger-menu">
-          <img src="./img/burger-menu.svg" alt="berger-menu" />
+          <svg class="icon icon-burger-menu">
+            <use xlink:href="./img/sprite.svg#icon-burger-menu"></use>
+          </svg>
+        </div>
+        <div class="mobile-menu">
+          <div class="mobile-menu__header">
+            <div class="header__logo">
+              <a href="#">
+                <img src="./img/logo.png" alt="logo" />
+              </a>
+            </div>
+            <div class="menu-clear menu-btn-close">
+              <svg class="icon icon-clear">
+                <use xlink:href="./img/sprite.svg#icon-clear"></use>
+              </svg>
+            </div>
+          </div>
+          <ul class="mobile__nav-list">
+            <li class="mobile__nav-list-item menu-btn-close">
+              <a href="#home">Home</a>
+            </li>
+            <li class="mobile__nav-list-item menu-btn-close">
+              <a href="#product">Product</a>
+            </li>
+            <li class="mobile__nav-list-item menu-btn-close">
+              <a href="#pricing">Pricing</a>
+            </li>
+            <li class="mobile__nav-list-item menu-btn-close">
+              <a href="#about">About</a>
+            </li>
+            <li class="mobile__nav-list-item menu-btn-close">
+              <a href="#contacts">Contact</a>
+            </li>
+          </ul>
+          <div class="socials mobile-socials">
+            <svg class="icon icon-twitter icon-header menu-btn-close">
+              <use xlink:href="./img/sprite.svg#icon-twitter"></use>
+            </svg>
+            <svg class="icon icon-facebook icon-header menu-btn-close">
+              <use xlink:href="./img/sprite.svg#icon-facebook"></use>
+            </svg>
+            <svg class="icon icon-linkedin icon-header menu-btn-close">
+              <use xlink:href="./img/sprite.svg#icon-linkedin"></use>
+            </svg>
+          </div>
         </div>
       </div>
     </header>
@@ -483,5 +527,6 @@
         </div>
       </div>
     </footer>
+    <script src="./JS/mobile.js"></script>
   </body>
 </html>

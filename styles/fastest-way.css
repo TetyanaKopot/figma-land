@@ -1,11 +1,13 @@
+@import 'global.css';
+
 .fastest-way {
   .fastest-way__container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 60px;
-    
-    @media(min-width: 1200px) {
+
+    @media (min-width: 1200px) {
       justify-content: space-between;
     }
   }
@@ -15,11 +17,11 @@
       text-align: left;
     }
   }
-  
+
   .fastest-way__image-item {
     width: 360px;
 
-    @media(min-width: 768px) {
+    @media (min-width: 768px) {
       width: 625px;
     }
   }

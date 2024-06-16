@@ -1,7 +1,0 @@
-.burger-menu {
-    display: block;
-
-    @media(min-width: 786px) {
-        display: none;
-    }
-}

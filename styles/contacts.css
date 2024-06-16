@@ -1,3 +1,6 @@
+@import 'global.css';
+@import 'socials.css';
+
 .contacts {
   .contacts__title {
     margin-bottom: 17px;

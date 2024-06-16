@@ -1,3 +1,5 @@
+@import 'global.css';
+
 .intro {
   min-width: 100%;
   background-image: url(../img/intro.jpg);
@@ -7,7 +9,7 @@
   text-align: center;
   padding: 160px 10px;
 
-  @media(min-width: 768px) {
+  @media (min-width: 768px) {
     padding: 290px 0;
   }
 
@@ -16,12 +18,11 @@
     max-width: 786px;
     margin: 0 auto;
 
-
     .intro__container-inner {
       color: var(--color-text-light);
       margin-bottom: 40px;
 
-      @media(min-width: 768px) {
+      @media (min-width: 768px) {
         margin-bottom: 90px;
       }
 
@@ -31,7 +32,7 @@
         line-height: 1.2;
         margin-bottom: 20px;
 
-        @media(min-width: 768px) {
+        @media (min-width: 768px) {
           font-weight: 700;
           margin-bottom: 36px;
           font-size: 74px;
@@ -39,7 +40,7 @@
       }
 
       .intro__content {
-        font-size: 28px;        
+        font-size: 28px;
       }
     }
   }

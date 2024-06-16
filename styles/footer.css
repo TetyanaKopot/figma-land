@@ -1,3 +1,6 @@
+@import 'global.css';
+@import 'socials.css';
+
 .footer {
   background-color: var(--color-background-dark);
   color: var(--color-text-light);

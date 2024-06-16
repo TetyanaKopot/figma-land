@@ -1,3 +1,4 @@
+@import 'global.css';
 @import 'socials.css';
 
 .header {
@@ -47,6 +48,14 @@
             margin-right: 21px;
           }
         }
+      }
+    }
+
+    .burger-menu {
+      display: block;
+
+      @media (min-width: 786px) {
+        display: none;
       }
     }
   }

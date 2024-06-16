@@ -1,4 +1,3 @@
-@import 'burger-menu.css';
 @import 'button.css';
 @import 'contacts.css';
 @import 'fastest-way.css';
@@ -8,6 +7,7 @@
 @import 'header.css';
 @import 'intro.css';
 @import 'main.css';
+@import 'mobile-menu.css';
 @import 'newsletter.css';
 @import 'partners.css';
 @import 'pricing.css';
