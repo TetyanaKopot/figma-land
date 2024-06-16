@@ -36,6 +36,12 @@
         .header__nav-list-item {
           padding: 10px;
           margin-right: 8px;
+          transition: linear 0.3s;
+
+          &:hover {
+            border: 1px solid var(--color-text-light);
+            scale: 1.2;
+          }
 
           @media (min-width: 980px) {
             margin-right: 21px;

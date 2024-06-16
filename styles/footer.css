@@ -5,15 +5,55 @@
 
   .footer__container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: c;
     gap: 20px;
-    padding: 150px 390px;
+    padding: 50px;
+
+    @media (min-width: 659px) {
+      justify-content: space-between;
+      padding: 150px;
+    }
+
+    @media (min-width: 1625px) {
+      padding: 150px 390px;
+    }
 
     .footer__pages,
-    footer__staffs,
-    footer__users {
+    .footer__staffs,
+    .footer__users {
       width: 170px;
+      margin-bottom: 75px;
+      text-align: center;
+
+      @media (min-width: 659px) {
+        text-align: left;
+      }
+
+      .footer__title {
+        margin-bottom: 25px;
+      }
+
+      .footer__nav-list-item,
+      .footer__item {
+        margin-bottom: 16px;
+        transition: linear 0.3s;
+
+        &:hover {
+          scale: 1.2;
+        }
+      }
+    }
+
+    .footer__address,
+    .footer__phone {
+      margin-bottom: 20px;
+
+      .footer-map-point,
+      .footer-phone {
+        margin-right: 15px;
+      }
     }
   }
 }

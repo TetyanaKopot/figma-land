@@ -6,4 +6,23 @@
   border-radius: 35px;
   font-size: 20px;
   line-height: 1;
+  transition: linear 0.3s;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--color-background-light);
+    color: var(--color-primary);
+  }
+}
+
+.card__button {
+  background-color: var(--color-background-light);
+  color: var(--color-primary);
+  transition: linear 0.3s;
+
+  &:hover {
+    background-color: var(--color-primary);
+    color: var(--color-text-light);
+    border: 1px solid var(--color-text-light);
+  }
 }
