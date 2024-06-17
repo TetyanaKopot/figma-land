@@ -1,6 +1,3 @@
-@import 'global.css';
-@import 'cards.css';
-
 .pricing {
   background-color: var(--color-background-dark);
   padding: 100px 0;
