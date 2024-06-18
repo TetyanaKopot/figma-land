@@ -1,16 +1,21 @@
-@import 'button.css';
-@import 'cards.css';
-@import 'contacts.css';
+@import 'global.css';
+
+/* Секційні стилі */
+@import 'header.css';
+@import 'footer.css';
+@import 'intro.css';
 @import 'fastest-way.css';
 @import 'features.css';
-@import 'footer.css';
-@import 'global.css';
-@import 'header.css';
-@import 'intro.css';
-@import 'mobile-menu.css';
-@import 'newsletter.css';
+@import 'testimonials.css';
 @import 'partners.css';
 @import 'pricing.css';
+@import 'contacts.css';
+
+/* Компонентні стилі */
+@import 'button.css';
+@import 'cards.css';
+@import 'mobile-menu.css';
+@import 'newsletter.css';
 @import 'socials.css';
 @import 'svg-icons.css';
-@import 'testimonials.css';
+
