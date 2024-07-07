@@ -2,6 +2,12 @@
   border: 1px solid var(--color-background-light);
   border-radius: 10px;
   font-size: 16px;
+  transition: linear 0.5s;
+
+  &:hover {
+    cursor: pointer;
+    scale: 1.2;
+  }
 
   .card__title,
   .card__price,

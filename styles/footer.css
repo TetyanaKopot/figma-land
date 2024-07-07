@@ -44,6 +44,7 @@
         transition: linear 0.3s;
 
         &:hover {
+          cursor: pointer;
           scale: 1.2;
         }
       }
